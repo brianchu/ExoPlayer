@@ -125,6 +125,10 @@ import java.util.Locale;
         + "prog_index.m3u8", DemoUtil.TYPE_HLS),
     new Sample("Apple ID3 metadata", "http://devimages.apple.com/samplecode/adDemo/ad.m3u8",
         DemoUtil.TYPE_HLS),
+    new Sample("HLS Audio problematic", "http://v.w-x.co/2015/08/D-1427972.m3u8",
+        DemoUtil.TYPE_HLS),
+    new Sample("HLS Audio okay", "http://v.w-x.co/2015/07/D-1386756.m3u8",
+        DemoUtil.TYPE_HLS),
   };
 
   public static final Sample[] MISC = new Sample[] {
