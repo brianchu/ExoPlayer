@@ -60,6 +60,8 @@ public class SampleChooserActivity extends Activity {
     sampleAdapter.addAll((Object[]) Samples.HLS);
     sampleAdapter.add(new Header("Misc"));
     sampleAdapter.addAll((Object[]) Samples.MISC);
+    sampleAdapter.add(new Header("ISSUES"));
+    sampleAdapter.addAll((Object[]) Samples.ISSUES);
 
     // Add WebM samples if the device has a VP9 decoder.
     try {
